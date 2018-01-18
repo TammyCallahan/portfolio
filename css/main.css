@@ -1,173 +1,188 @@
-/***** BASE STYLES *****/
-body{
+/***********************
+      BASE STYLES
+************************/
+
+body {
   font-family: 'Raleway', sans-serif;
 }
 
 #about, #work, #contact {
-    height: 600px;
+  padding: 80px;
+}
+
+#work {
+  height: 600px;
+}
+
+.section-header h2 {
+  color: #262A2B;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+}
+
+/***********************
+      NAVIGATION
+************************/
+
+.navbar {
+  background-color: rgba(235, 235, 235, 0);
+  border: none;
+}
+
+.navbar a {
+  color: #474056;
+  font-weight: bold;
+  letter-spacing: .2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav-links a {
+  color: #474056;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav-links>.active>a {
+  background-color: #474056;
+  color: #fff;
+}
+
+.navbar a:hover, #nav-links a:hover {
+  color: #fff;
 }
 
 /***** GRID *****/
+
 .full-width {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .half-width {
-    width: 600px;
-    float: left;
+  width: 600px;
+  float: left;
 }
 
 .third-width {
-    width: 400px;
-    float: left;
+  width: 400px;
+  float: left;
 }
 
 /***** HEADER *****/
+
 header {
-    height: 800px;
-    background: url('../img/dreamy-morning-hoarfrost-on-grass-picjumbo-comW1400flip.jpg');
-    background-size: cover;
+  height: 800px;
+  background-image: url('../img/dreamy-morning-hoarfrost-on-grass-picjumbo-comW1400flip.jpg');
+  background-size: cover;
+  margin-top: -20px;
 }
 
-header h1 {
-    color: #BBC085;
-    font-family: 'Roboto Slab', serif;
-    font-size: 30px;
-    padding: 50px 0;
+#headline {
+  clear: both;
+  color: #7f7f7f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 4em;
+  line-height: 80px;
+  margin-top: 80px;
+  padding: 40px;
+  width: 1000px;
 }
 
-nav {
-    float: right;
-    padding: 75px 40px;
+#headline span {
+  color: #474056;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    color: #828282;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 80px;
-}
-
-header h2 {
-    clear: both;
-    color: #9A9B9B;
-    font-family: 'Roboto Slab', serif;
-    font-size: 72px;
-    line-height: 80px;
-    padding: 20px 0;
-    width: 1000px;
-}
-
-header h2 span {
-    color: #262A2B;
-}
-
-/***** ABOUT *****/
-#about .full-width {
-    padding: 80px 0;
-}
-
-#about h2 {
-    color: #262A2B;
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
-}
+/***********************
+      ABOUT
+************************/
 
 #about p {
-    color: #7F7F7F;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 40px;
-    padding-right: 50px;
+  color: #7F7F7F;
+  font-size: 1.5em;
+  line-height: 40px;
 }
 
-/***** WORK *****/
+/***********************
+      WORK
+************************/
+
 #work {
-    background-color: #F9CEB7;
-    text-align: center;
-}
-
-#work .full-width {
-    padding: 115px 0;
+  background-color: #F9CEB7;
+  padding: 115px 0;
+  text-align: center;
 }
 
 #work img {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #work h3 {
-    font-size: 24px;
-    margin: 0 auto;
-    width: 195px;
+  font-size: 1.75em;
+  margin: 0 auto;
+  width: 40%;
 }
 
 #work p {
-    font-family: 'Roboto Slab', serif;
-    font-size: 18px;
-    line-height: 40px;
-    color: #262A2B;
-    padding: 0 35px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  color: #262A2B;
+  padding: 0 35px;
 }
 
-/***** CONTACT *****/
+/***********************
+      CONTACT
+************************/
 #contact {
-    background-color: #EBEBEB;
+  background-color: #EBEBEB;
 }
 
-#contact .full-width {
-    padding: 110px 0;
-}
-
-#contact-img {
-    border: 12px solid #FFFFFF;
-}
-
-#contact h2, #email-header, #socialmedia-header, #contact ul {
-    padding-left: 115px;
-}
-
-#envelope {
-    padding: 0 10px 0 115px;
-}
-
-#contact h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
-}
-
-#email-header {
-    font-size: 32px;
-    font-weight: 500;
-    margin: -30px 0 5px 0
-}
-
-#socialmedia-header {
-    font-size: 29px;
-    font-weight: bold;
-    margin: 40px 0 0 0;
+.contact-info {
+  margin-top: 20px;
 }
 
 #contact a {
-    text-decoration: none;
-    color: #C49075;
-    font-size: 28px;
-    font-weight: bold;
+  color: #C49075;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#social-media h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 40px 0 0 0;
+}
+
+#social-media ul {
+  padding-left: 0px;
 }
 
 #contact ul {
-    list-style: none;
+  list-style: none;
 }
 
 #contact ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #contact ul img {
-    padding-right: 48px;
+  padding-right: 48px;
+}
+
+/***********************
+      FOOTER
+************************/
+footer {
+  background-color: #ebebeb;
+  margin: 0;
+  text-align: right;
+  width: 100%;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 10px;
 }

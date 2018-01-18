@@ -1,85 +1,123 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Tammy Callahan | Developer</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>
-            <div class="full-width">
-                <div class="half-width">
-                    <h1>Tammy Callahan</h1>
-                </div>
-                <div class="half-width">
-                    <nav>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <h2><span>Hi,</span> I'm a developer that loves clean &amp; elegant code.</h2>
-            </div>
-        </header>
+<head>
+  <meta charset="utf-8">
+  <title>Tammy Callahan | Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab" rel="stylesheet">
+</head>
 
-        <main>
-            <section id="about">
-                <div class="full-width">
-                    <h2>A little about me.</h2>
-                    <div class="half-width">
-                        <p>I'm currently living in Chicago, Illinois but planning a move to Atlanta, Georgia soon... hopefully! I have experience in process development, process improvement, data analysis (Six Sigma Black Belt) and more. I decided to make a career shift to web development.</p>
-                    </div>
-                    <div class="half-width">
-                        <p>When I learned how to build my first website, I realized I found something that gave me the freedom &amp; versatility I was looking for in my work. Now I'm working on making a full switch to web development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>
-                    </div>
-                </div>
-            </section>
+<body data-spy="scroll" data-target=".navbar">
+  <!-- =========================================== -->
+  <!--   NAVIGATION                                -->
+  <!-- =========================================== -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="home-link navbar-brand">
+          <a href="#">Tammy Callahan</a>
+        </div>
+        <!-- end home-link -->
+      </div>
+      <!-- end navbar-header -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- end navbar -->
+    </div>
+    <!-- end navigation -->
+  </nav>
 
-            <section id="work">
-                <div class="full-width">
-                    <div class="third-width">
-                        <img src="img/icon-html.png" alt="HTML icon" />
-                        <h3>Hand-Coded HTML</h3>
-                        <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
-                    </div>
-                    <div class="third-width">
-                        <img src="img/icon-css.png" alt="CSS icon" />
-                        <h3>Well-Organized CSS</h3>
-                        <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
-                    </div>
-                    <div class="third-width">
-                        <img src="img/icon-pencil.png" alt="Pencil icon" />
-                        <h3>Ease Converting Designs into Code</h3>
-                        <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
-                    </div>
-                </div>
-            </section>
+  <header>
+    <div class="container-fluid">
+      <h1 id="headline"><span>Hi,</span> I'm Tammy. I'm a full-stack web developer.</h1>
+    </div>
+  </header>
 
-            <footer id="contact">
-                <div class="full-width">
-                    <div class="half-width">
-                        <img id="contact-img" src="img/contact.png" alt="Contact icon" />
-                    </div>
-                    <div class="half-width" id="contact-info">
-                        <h2>Like what you see?</h2>
-                        <h3 id="email-header">Let's chat.</h3>
-                        <a href="mailto:hello@tammycallahan.com"><img id="envelope" src="img/icon-envelope.png" alt="Envelope icon" />hello@tammycallahan.com</a>
-                        <h3 id="socialmedia-header">Or, find me here:</h3>
-                        <ul>
-                            <!-- <li><a href=""><img src="img/icon-tumblr.png" alt="Tumblr icon" /></a></li> -->
-                            <!-- <li><a href="http://www.instagram.com/tammy3174/"><img src="img/icon-instagram.png" alt="Instagram icon" /></a></li> -->
-                            <li><a href="http://www.linkedin.com/in/tammycallahan/"><img src="img/icon-linkedin.png" alt="LinkedIn icon" /></a></li>
-                            <li><a href="http://github.com/TammyCallahan"><img src="img/icon-github.png" alt="Github icon" /></a></li>
-                            <li><a href="http://twitter.com/trenec"><img src="img/icon-twitter.png" alt="Twitter icon" /></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </main>
-    </body>
+  <main>
+    <section class="container-fluid anchor" id="about">
+      <div class="section-header">
+        <h2>A little about me.</h2>
+      </div>
+      <!-- end section-header -->
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <p>I'm currently living in Chicago, Illinois but planning a move to Atlanta, Georgia soon. I've always loved animals, music, and technology. When I learned how to build my first website, I realized I found something that gave me the satisfaction, freedom &amp; versatility I was looking for in my work.</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <p>  Now I'm working on making a full switch to web development where I can use my organization skills and eye for detail to write clean, efficient code. Besides web development, I also have experience in process development, process improvement, data analysis (Six Sigma Black Belt) and more.</p>
+        </div>
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end about -->
+
+    <section class="container-fluid anchor" id="work">
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <img src="img/icon-html.png" alt="HTML icon" />
+          <h3>Hand-Coded HTML</h3>
+          <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <img src="img/icon-css.png" alt="CSS icon" />
+          <h3>Well-Organized CSS</h3>
+          <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <img src="img/icon-pencil.png" alt="Pencil icon" />
+          <h3>Ease Converting Designs into Code</h3>
+          <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
+        </div>
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end work -->
+
+    <section class="container-fluid anchor" id="contact">
+      <div class="section-header">
+        <h2>Have a question or would you like to work together?</h2>
+      </div><!-- end contact section-header -->
+      <div class="contact-info">
+        <h4><a href="mailto:hello@tammycallahan.com"><span class="glyphicon glyphicon-envelope"></span> hello@tammycallahan.com</a></h4>
+      </div>
+      <div id="social-media">
+        <h3>Or, find me here:</h3>
+        <ul>
+          <li><a href="http://www.linkedin.com/in/tammycallahan/"><img src="img/icon-linkedin.png" alt="LinkedIn icon" /></a></li>
+          <li><a href="http://github.com/TammyCallahan"><img src="img/icon-github.png" alt="Github icon" /></a></li>
+          <li><a href="http://twitter.com/trenec"><img src="img/icon-twitter.png" alt="Twitter icon" /></a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- end contact -->
+  </main>
+
+  <footer>
+    <h4>&copy; Tammy Callahan 2018</h4>
+  </footer>
+
+  <!-- =========================================== -->
+  <!--   JAVASCRIPT                                -->
+  <!-- =========================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="js/work.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
