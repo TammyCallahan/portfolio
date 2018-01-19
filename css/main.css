@@ -74,6 +74,7 @@ body {
 
 header {
   height: 800px;
+  width: 100%;
   background-image: url('../img/dreamy-morning-hoarfrost-on-grass-picjumbo-comW1400flip.jpg');
   background-size: cover;
   margin-top: -20px;
@@ -81,7 +82,7 @@ header {
 
 #headline {
   clear: both;
-  color: #7f7f7f;
+  color: #474056;
   font-family: 'Roboto Slab', serif;
   font-size: 4em;
   line-height: 80px;
@@ -89,10 +90,10 @@ header {
   padding: 40px;
   width: 1000px;
 }
-
+/*
 #headline span {
   color: #474056;
-}
+} */
 
 /***********************
       ABOUT
@@ -104,13 +105,18 @@ header {
   line-height: 40px;
 }
 
+#modal-embed {
+  height: 500px;
+  padding: 10px;
+  width: 100%;
+}
+
 /***********************
       WORK
 ************************/
 
 #work {
-  background-color: #F9CEB7;
-  padding: 115px 0;
+  background-color: #C9BDC7;
   text-align: center;
 }
 
@@ -144,7 +150,7 @@ header {
 }
 
 #contact a {
-  color: #C49075;
+  color: #843a54;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
