@@ -8,4 +8,21 @@ $(document).ready(function () {
       $('.navbar').css('background-color', 'rgba(235,235,235,.8)');
     }
   });
+
+  //Work section
+  for (i = 0; i < works.length; ++i) {
+    $("#projects").append("\
+      <div class='col-md-3 col-xs-6'>\
+        <a href='" + works[i].url + "' class='work-img' target='_blank'>\
+          <img class='img-responsive' src='" + works[i].pic + "'>\
+            <span class='info'><p class='proj-title'>Title: </p>" + works[i].title + "</span>\
+        </a>\
+      </div>\
+      ");
+    $(".work-img").mouseenter(function () {
+      $(".info", this).show();
+    }).mouseleave(function () {
+      $(".info", this).hide();
+    });
+  };
 });

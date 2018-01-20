@@ -1,17 +1,27 @@
 /***********************
+COLORS:
+lt gray: rgba(235, 235, 235, .8)
+       : #ebebeb
+dk gray: rgba(127, 127, 127, .7)
+       : #7f7f7f
+dk pink: #843a54
+lt purp: #c9bdc7
+dk purp: #474056
+white__: #fff
+************************/
+
+/***********************
       BASE STYLES
 ************************/
+* {box-sizing: border-box;}
 
 body {
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
 #about, #work, #contact {
   padding: 80px;
-}
-
-#work {
-  height: 600px;
 }
 
 .section-header h2 {
@@ -23,9 +33,8 @@ body {
 /***********************
       NAVIGATION
 ************************/
-
 .navbar {
-  background-color: rgba(235, 235, 235, 0);
+  background-color: rgba(235, 235, 235, .8);
   border: none;
 }
 
@@ -53,25 +62,9 @@ body {
   color: #fff;
 }
 
-/***** GRID *****/
-
-.full-width {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.half-width {
-  width: 600px;
-  float: left;
-}
-
-.third-width {
-  width: 400px;
-  float: left;
-}
-
-/***** HEADER *****/
-
+/***********************
+      HEADER
+************************/
 header {
   height: 800px;
   width: 100%;
@@ -88,17 +81,11 @@ header {
   line-height: 80px;
   margin-top: 80px;
   padding: 40px;
-  width: 1000px;
 }
-/*
-#headline span {
-  color: #474056;
-} */
 
 /***********************
       ABOUT
 ************************/
-
 #about p {
   color: #7F7F7F;
   font-size: 1.5em;
@@ -114,35 +101,44 @@ header {
 /***********************
       WORK
 ************************/
-
 #work {
-  background-color: #C9BDC7;
-  text-align: center;
+  background-color: #c9bdc7;
 }
 
-#work img {
-  padding-bottom: 30px;
+#work h2 {
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
-#work h3 {
-  font-size: 1.75em;
-  margin: 0 auto;
-  width: 40%;
+#projects {
+  margin-top: 10px;
 }
 
-#work p {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  color: #262A2B;
-  padding: 0 35px;
+#projects img {
+  border-radius: 5%;
+}
+
+.info {
+  color: #fff;
+  display: none;
+  font-weight: bold;
+  left: 10%;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  position: absolute;
+  text-transform: uppercase;
+  top: 15%;
+}
+
+.proj-title {
+  font-weight: 100;
 }
 
 /***********************
       CONTACT
 ************************/
 #contact {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .contact-info {
