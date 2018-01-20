@@ -34,7 +34,7 @@ body {
       NAVIGATION
 ************************/
 .navbar {
-  background-color: rgba(235, 235, 235, .8);
+  background-color: rgba(235, 235, 235, 0);
   border: none;
 }
 
