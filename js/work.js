@@ -1,12 +1,14 @@
 var works = [
   {
     title: "Calculator",
+    technology: "HTML, CSS",
     pic: "img/proj-calculator.png",
     url: "http://frosty-torvalds-c325f0.bitballoon.com/"
   },
   {
-    title: "Coming Soon",
+    title: "More to be added soon",
+    technology: "n/a",
     pic: "img/proj-coming-soon.png",
-    url: "#"
+    url: ""
   }
 ];
