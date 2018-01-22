@@ -15,7 +15,7 @@ $(document).ready(function () {
       <div class='col-md-3 col-xs-6'>\
         <a href='" + works[i].url + "' class='work-img' target='_blank'>\
           <img class='img-responsive' src='" + works[i].pic + "'>\
-            <span class='info'><p class='proj-title'>Title: </p>" + works[i].title + "<p class='proj-info'><br>Technology: </p>" + works[i].technology + "</span>\
+            <span class='info'><p class='proj-title'>Title: </p>" + works[i].title + "<p class='proj-title'><br>Skills: </p>" + works[i].technology + "</span>\
         </a>\
       </div>\
       ");
