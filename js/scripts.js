@@ -13,10 +13,17 @@ $(document).ready(function () {
   for (i = 0; i < works.length; ++i) {
     $("#projects").append("\
       <div class='col-md-3 col-xs-6'>\
-        <a href='" + works[i].url + "' class='work-img' target='_blank'>\
-          <img class='img-responsive' src='" + works[i].pic + "'>\
-            <span class='info'><p class='proj-title'>Title: </p>" + works[i].title + "<p class='proj-title'><br>Skills: </p>" + works[i].technology + "</span>\
-        </a>\
+        <div>\
+          <a href='" + works[i].url + "' class='work-img' target='_blank'>\
+            <img class='img-responsive' src='" + works[i].pic + "'>\
+            <span class='info'><p class='project-title'>Title: </p>" + works[i].title + "</span>\
+          </a>\
+        </div>\
+        <div class='project-background'>\
+          <h3>" + works[i].title + "</h3>\
+          <h4>" + works[i].technology + "</h4>\
+          <p>" + works[i].description + "</p>\
+        </div>\
       </div>\
       ");
     $(".work-img").mouseenter(function () {

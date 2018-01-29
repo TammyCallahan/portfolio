@@ -121,6 +121,7 @@ header {
 }
 
 .info {
+  background-color: rgba(127, 127, 127, .4);
   color: #fff;
   display: none;
   font-weight: bold;
@@ -132,8 +133,20 @@ header {
   top: 15%;
 }
 
-.proj-title {
+.project-title {
   font-weight: 100;
+}
+
+.project-background {
+  font-size: 1em;
+}
+
+.project-background h3 {
+  font-weight: bold;
+}
+
+.project-background h4 {
+  font-style: italic;
 }
 
 /***********************
@@ -143,39 +156,27 @@ header {
   background-color: #ebebeb;
 }
 
-.contact-info {
-  margin-top: 20px;
-}
-
-#contact a {
-  color: #262A2B;
-  font-size: 2em;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-#social-media h3 {
-  font-size: 2em;
-  font-weight: bold;
-  margin: 40px 0 0 0;
-}
-
-#social-media ul {
-  padding-left: 0px;
-}
-
 #contact ul {
   list-style: none;
   margin-top: 20px;
+  padding-left: 0px;
 }
-
-/* #contact ul li {
-  display: inline-block;
-} */
 
 #contact ul img {
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
+
+#contact a,
+.list-text {
+  color: #262A2B;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /***********************
