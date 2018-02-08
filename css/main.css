@@ -179,6 +179,10 @@ header {
   text-decoration: none;
 }
 
+#contact a:hover {
+  color: #7f7f7f;
+}
+
 /***********************
       FOOTER
 ************************/
