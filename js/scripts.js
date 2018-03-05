@@ -20,7 +20,9 @@ $(document).ready(function () {
           </a>\
         </div>\
         <div class='project-background'>\
-          <h3>" + works[i].title + "</h3>\
+          <h3>" + works[i].title + "\
+            <span id='git-link'><a href='" + works[i].github + "' target='_blank'> (GitHub)</a></span>\
+          </h3>\
           <h4>" + works[i].technology + "</h4>\
           <p>" + works[i].description + "</p>\
         </div>\
