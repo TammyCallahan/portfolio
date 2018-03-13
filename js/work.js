@@ -10,7 +10,7 @@ var works = [
   {
     title: "eCommerce Project",
     technology: "HTML, CSS, JavaScript, Ruby on Rails",
-    description: "eCommerce site utilizing Ruby on Rails with Stripe payment, authorization and authentication using the Devise and CanCanCan gems, and tested utilizing RSpec and Factory Bot.",
+    description: "eCommerce site incorporating Stripe payments, authorization and authentication using the Devise and CanCanCan gems, caching with Redis, WebSockets, and tested utilizing RSpec and Factory Bot.",
     pic: "img/projss-ecommerce.png",
     github: "http://github.com/TammyCallahan/FirstRailsApp",
     url: "http://bike-berlin-ruby-app.herokuapp.com/"

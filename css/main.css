@@ -189,8 +189,19 @@ header {
   text-decoration: none;
 }
 
+.contact-header {
+  color: #262A2B;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+}
+
 #contact a:hover {
   color: #7f7f7f;
+}
+
+.form-group {
+  margin-bottom: 0;
 }
 
 /***********************
@@ -221,7 +232,8 @@ footer h4 {
   }
 
   #contact a,
-  .list-text {
+  .list-text,
+  .contact-header {
     font-size: 2em;
   }
 }

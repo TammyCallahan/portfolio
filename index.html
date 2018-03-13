@@ -97,7 +97,8 @@
       <div class="section-header">
         <h2>Have a question or would you like to work together?</h2>
       </div><!-- end contact section-header -->
-      <div>
+      <div class="col-lg-6 col-md-6">
+        <h3 class="contact-header">Tammy Callahan</h3>
         <ul>
           <li><a href="mailto:hello@tammycallahan.com"><img src="img/icon-email-32.png" alt="email">hello@tammycallahan.com</a></li>
           <li class="list-text"><img src="img/icon-location-32.png" alt="location">Chicago, IL (moving to Atlanta, GA)</li>
@@ -105,6 +106,32 @@
           <li><a href="http://github.com/TammyCallahan"><img src="img/icon-github-32.png" alt="Github icon">github.com/tammycallahan</a></li>
         </ul>
       </div>
+      <form id="contact-form" class="col-lg-6 col-md-6" action="https://formspree.io/hello@tammycallahan.com"
+      method="POST">
+        <h3 class="contact-header">Say hello...</h3>
+        <div class="form-group col-lg-8 col-md-8">
+          <label for="name" class="sr-only">Name</label>
+          <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name">
+          <p id="visible-name"></p>
+        </div>
+        <div class="form-group col-lg-4 col-md-4">
+          <label for="telephone" class="sr-only">Telephone</label>
+          <input class="form-control" id="telephone" type="tel" name="telephone" placeholder="Enter your telephone number" minlength="10" title="Must be at least 10 characters">
+          <p id="visible-telephone"></p>
+        </div>
+        <div class="form-group col-lg-12 col-md-12">
+          <label for="email" class="sr-only">*Email Address</label>
+          <input class="form-control" id="email" type="email" name="email" placeholder="*Enter your email" required="required" title="Email address is required">
+          <p id="visible-email"></p>
+        </div>
+        <div class="form-group col-lg-12 col-md-12">
+          <label for="msg" class="sr-only">*Message</label>
+          <textarea class="form-control message-box" id="msg" style="resize: none" cols="40" rows="5" name="msg" placeholder="*Enter your message" required="required" title="A message is required"></textarea>
+          <p id="visible-comment"></p>
+          <p id="char-count"></p>
+          <button type="submit" class="btn btn-default btn-lg active" id="submit-button">Submit</button>
+        </div>
+      </form>
     </section><!-- end contact -->
   </main>
 
